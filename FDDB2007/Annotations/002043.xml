@@ -1,0 +1,24 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>002043</filename>
+  <source>
+    <database>FDDB</database>
+  </source>
+  <size>
+    <width>365</width>
+    <height>410</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>face</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>92</xmin>
+      <ymin>91</ymin>
+      <xmax>270</xmax>
+      <ymax>357</ymax>
+    </bndbox>
+  </object>
+</annotation>
