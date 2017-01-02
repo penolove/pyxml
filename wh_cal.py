@@ -79,7 +79,7 @@ if __name__=="__main__":
         if(len(face_box_wh(path,objects,img.shape))>0):
             total_wh.extend(temp_whbx)
 
-    with open("output.csv", "wb") as f:
+    with open("output.csv", "a") as f:
          writer = csv.writer(f)
          writer.writerows(total_wh)
 
