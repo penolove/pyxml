@@ -10,6 +10,15 @@ Translate ellipseList to annotation xml files:
 python anno2xml.py [ellipseList]
 ```
 
+## run the random to generate trainval and test
+
+```
+cd ImageSets
+python randomSet.py
+
+```
+
+
 list file were put in FDDB-folds 
 (e.g. FDDB-fold-01-ellipseList.txt)
 there are 01~10 ellipselist
@@ -34,14 +43,16 @@ the FDDB is much larger.
 
 ## multiscale faces
 since our FDDB face resolution is much larger ,
-we will resize (divide by 3) the image and create more training data
-
+we will resize (divide by 2 and 3) the image and create more training data
 
 if face w+h < 20 drop it.
 
 ```
 python multi_anno2xml.py
 ```
+
+
+
 
 
 
