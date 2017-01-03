@@ -20,11 +20,6 @@ the Annotations and JPGE will be fill with files
 the avg w,h for FDDB face is:
 (97.4,144.6)
 
-          w         h
-1 198.41098 296.33902
-2 127.03337 189.59485
-3  37.87374  54.05429
-4  80.88835 120.00979
 | w         | h           | 
 | ------------- |:-------------:| 
 | 37.8       | 54.05 | 
@@ -32,4 +27,4 @@ the avg w,h for FDDB face is:
 | 127.0 | 189.5      | 
 | 198.41 | 296.33      | 
 
-![alt tag](https://raw.githubusercontent.com/penolove/pyxml_wider/master/WiderfaceWH.png)
+![alt tag](https://raw.githubusercontent.com/penolove/pyxml/master/FDDBwh.png)
