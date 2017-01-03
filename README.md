@@ -19,6 +19,8 @@ the Annotations and JPGE will be fill with files
 
 the avg w,h for FDDB face is:
 (97.4,144.6)
+as compare to Wider face (28.5,36.9)
+the FDDB is much larger. 
 
 | w         | h           | 
 | ------------- |:-------------:| 
@@ -27,4 +29,19 @@ the avg w,h for FDDB face is:
 | 127.0 | 189.5      | 
 | 198.41 | 296.33      | 
 
+
 ![alt tag](https://raw.githubusercontent.com/penolove/pyxml/master/FDDBwh.png)
+
+## multiscale faces
+since our FDDB face resolution is much larger ,
+we will resize (divide by 3) the image and create more training data
+
+
+if face w+h < 20 drop it.
+
+```
+python multi_anno2xml.py
+```
+
+
+
